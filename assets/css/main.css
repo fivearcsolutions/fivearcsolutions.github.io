@@ -2170,3 +2170,39 @@ p {
 }
 
 
+
+/* Client Solutions Styling */
+.solution-card {
+  border: 1px solid #e8ebf1;
+  border-radius: 12px;
+  padding: 1.5rem;
+  height: 100%;
+  background: white;
+}
+
+.solution-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.solution-list li {
+  padding: 6px 0;
+  color: #4a5568;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.solution-list li:before {
+  content: "•";
+  color: #0d6efd;
+  position: absolute;
+  left: 0;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: #1a365d;
+  font-weight: 600;
+}
