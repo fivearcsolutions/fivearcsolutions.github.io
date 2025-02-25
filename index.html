@@ -1,228 +1,449 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Solid Template</title>
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-</head>
-<body class="is-boxed has-animations">
-    <div class="body-wrap">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-							<a href="#">
-								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Equalinx - Data-Driven Commercial Growth Solutions</title>
+    <meta name="description" content="Equalinx provides Intelligence as a Service to optimize revenue operations through data-driven insights and actionable strategies." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.png"
+    />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- ======== CSS here ======== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- ======== preloader start ======== -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="spinner">
+          <div class="spinner-container">
+            <div class="spinner-rotator">
+              <div class="spinner-left">
+                <div class="spinner-circle"></div>
+              </div>
+              <div class="spinner-right">
+                <div class="spinner-circle"></div>
+              </div>
             </div>
-        </header>
-
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Landing template for startups</h1>
-	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-	                        <div class="hero-cta"><a class="button button-primary" href="#">Pre order now</a><a class="button" href="#">Get in touch</a></div>
-						</div>
-						<div class="hero-figure anime-element">
-							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
-								<rect width="528" height="396" style="fill:transparent;" />
-							</svg>
-							<div class="hero-figure-box hero-figure-box-01" data-rotation="45deg"></div>
-							<div class="hero-figure-box hero-figure-box-02" data-rotation="-45deg"></div>
-							<div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
-							<div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
-							<div class="hero-figure-box hero-figure-box-05"></div>
-							<div class="hero-figure-box hero-figure-box-06"></div>
-							<div class="hero-figure-box hero-figure-box-07"></div>
-							<div class="hero-figure-box hero-figure-box-08" data-rotation="-22deg"></div>
-							<div class="hero-figure-box hero-figure-box-09" data-rotation="-52deg"></div>
-							<div class="hero-figure-box hero-figure-box-10" data-rotation="-50deg"></div>
-						</div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="features section">
-                <div class="container">
-					<div class="features-inner section-inner has-bottom-divider">
-                        <div class="features-wrap">
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-01.svg" alt="Feature 01">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
-                                </div>
-                            </div>
-							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-02.svg" alt="Feature 02">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-03.svg" alt="Feature 03">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-04.svg" alt="Feature 04">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
-                                </div>
-                            </div>
-							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-05.svg" alt="Feature 05">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
-                                </div>
-                            </div>
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-										<img src="dist/images/feature-icon-06.svg" alt="Feature 06">
-                                    </div>
-                                    <h4 class="feature-title mt-24">Be Productive</h4>
-                                    <p class="text-sm mb-0">Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. A arcu cursus vitae congue mauris. Nam at lectus urna duis convallis. Mauris rhoncus aenean vel elit scelerisque mauris.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="pricing section">
-                <div class="container-sm">
-                    <div class="pricing-inner section-inner">
-                        <div class="pricing-header text-center">
-                            <h2 class="section-title mt-0">Unlimited for all</h2>
-                            <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
-                        </div>
-						<div class="pricing-tables-wrap">
-                            <div class="pricing-table">
-                                <div class="pricing-table-inner is-revealing">
-                                    <div class="pricing-table-main">
-                                        <div class="pricing-table-header pb-24">
-                                            <div class="pricing-table-price"><span class="pricing-table-price-currency h2">$</span><span class="pricing-table-price-amount h1">49</span><span class="text-xs">/month</span></div>
-                                        </div>
-										<div class="pricing-table-features-title text-xs pt-24 pb-24">What you will get</div>
-                                        <ul class="pricing-table-features list-reset text-xs">
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-                                            <li>
-                                                <span>Lorem ipsum dolor sit nisi</span>
-                                            </li>
-											<li>
-												<span>Lorem ipsum dolor sit nisi</span>
-											</li>
-                                        </ul>
-                                    </div>
-                                    <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block" href="#">Pre order now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-			<section class="cta section">
-				<div class="container">
-					<div class="cta-inner section-inner">
-						<h3 class="section-title mt-0">Still not convinced on buying?</h3>
-						<div class="cta-cta">
-							<a class="button button-primary button-wide-mobile" href="#">Get in touch</a>
-						</div>
-					</div>
-				</div>
-			</section>
-        </main>
-
-        <footer class="site-footer">
-            <div class="container">
-                <div class="site-footer-inner">
-                    <div class="brand footer-brand">
-						<a href="#">
-							<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
-						</a>
-                    </div>
-                    <ul class="footer-links list-reset">
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ's</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-social-links list-reset">
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#0270D7"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Twitter</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#0270D7"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#0270D7"/>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer-copyright">&copy; 2019 Solid, all rights reserved</div>
-                </div>
-            </div>
-        </footer>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- preloader end -->
 
-    <script src="dist/js/main.min.js"></script>
-</body>
+    <!-- ======== header start ======== -->
+    <header class="header">
+      <div class="navbar-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/img/logo/logo.svg" alt="Equalinx Logo" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="page-scroll active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#solutions">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#framework">Framework</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#why">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ======== header end ======== -->
+
+    <!-- ======== hero-section start ======== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center position-relative">
+          <div class="col-lg-6">
+            <div class="hero-content">
+              <h1 class="wow fadeInUp" data-wow-delay=".4s">
+                Powering Growth with Intelligence Services
+              </h1>
+              <p class="wow fadeInUp" data-wow-delay=".6s">
+                Transform your revenue operations with Intelligence as a Service - optimizing customer acquisition, sales efficiency, and lifetime value through actionable insights.
+              </p>
+              <a
+                href="#contact"
+                class="main-btn border-btn btn-hover wow fadeInUp"
+                data-wow-delay=".6s"
+                >Schedule Consultation</a
+              >
+              <a href="#solutions" class="scroll-bottom">
+                <i class="lni lni-arrow-down"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
+              <img src="assets/img/logo/just-logo.svg" alt="Data Analytics Visualization" style="width: 400px; height: auto;" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== hero-section end ======== -->
+
+    <!-- ======== Solutions Section Start ======== -->
+<section id="solutions" class="feature-section pt-120">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-8 col-sm-10">
+          <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+            <div class="icon">
+              <i class="lni lni-target"></i>
+            </div>
+            <div class="content">
+              <h3>Precision Lead Acquisition</h3>
+              <p>
+                Pinpoint and engage high-value prospects using advanced behavioral scoring and AI-driven micro-segmentation, ensuring your outreach is focused on leads that convert.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-8 col-sm-10">
+          <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+            <div class="icon">
+              <i class="lni lni-stats-up"></i>
+            </div>
+            <div class="content">
+              <h3>Deal Acceleration</h3>
+              <p>
+                Leverage predictive analytics and seamless team collaboration to eliminate friction, optimize deal progression, and shorten your sales cycle with confidence.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-8 col-sm-10">
+          <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+            <div class="icon">
+              <i class="lni lni-investment"></i>
+            </div>
+            <div class="content">
+              <h3>Revenue Expansion & Retention</h3>
+              <p>
+                Drive sustainable ARR growth with proactive churn prevention, automated upsell strategies, and data-driven customer success insights to maximize long-term value.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- ======== solutions-section end ======== -->
+
+<!-- ======== framework-section start ======== -->
+<section id="framework" class="about-section pt-150">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-6">
+          <div class="about-img">
+            <img src="assets/img/logo/just-logo.svg" alt="Equalinx Framework" class="w-100" />
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="about-content">
+            <div class="section-title mb-30">
+              <!-- <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                The Equalinx Growth Framework
+              </h2> -->
+              <p class="wow fadeInUp" data-wow-delay=".4s">
+                Growing a business can feel like trying to find treasure without a map. At Equalinx, we give you that map. Our data-driven approach helps companies find the right customers faster, so they don’t waste time chasing leads that won’t turn into sales. Instead of guessing, we use smart insights to show businesses exactly where to focus, making sales quicker and smoother. With better-qualified leads, sales teams can spend less time knocking on the wrong doors and more time closing deals that matter.
+              </p>
+              <p class="wow fadeInUp mt-4" data-wow-delay=".5s">
+                But winning a deal is just the beginning. To keep growing, businesses need to take care of their customers and find new ways to bring value. That’s why our framework helps companies keep their customers happy, renew contracts with ease, and even find opportunities to sell more. By using data at every step, from the first handshake to long-term relationships, we help businesses grow their revenue and succeed without all the guesswork.
+              </p>
+            </div>
+            <!-- <a
+              href="#why"
+              class="main-btn btn-hover border-btn wow fadeInUp"
+              data-wow-delay=".6s"
+              >Explore Benefits</a
+            > -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ======== Full-Funnel Optimization Section ======== -->
+<section class="about-section pt-150">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-xl-6 col-lg-6 order-first order-lg-last">
+          <div class="about-img-2">
+            <img src="assets/img/logo/Screenshot 2025-02-25 at 14.15.25.png" alt="Data Platform" class="w-100" />
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="about-content">
+            <div class="section-title mb-30">
+              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                Full-Funnel Commercial Optimization
+              </h2>
+              <p class="wow fadeInUp" data-wow-delay=".4s">
+                Unlock the power of data-driven intelligence to streamline every stage of your revenue operations. Our platform integrates seamlessly across your entire revenue stack, ensuring you target the right leads, close deals faster, and maximize customer value.
+              </p>
+              <div class="row mt-4">
+                <div class="col-md-6">
+                  <div class="feature-card wow fadeInUp" data-wow-delay=".5s">
+                    <!-- <i class="lni lni-users"></i> -->
+                    <h4>Lead Intelligence</h4>
+                    <p>Identify high-potential leads with automated ICP matching and real-time intent scoring.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feature-card wow fadeInUp" data-wow-delay=".6s">
+                    <!-- <i class="lni lni-pipeline"></i> -->
+                    <h4>Deal Analytics</h4>
+                    <p>Gain full visibility into your pipeline with real-time monitoring and predictive deal insights.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                  <div class="feature-card wow fadeInUp" data-wow-delay=".7s">
+                    <!-- <i class="lni lni-target"></i> -->
+                    <h4>Sales Acceleration</h4>
+                    <p>Shorten the sales cycle with AI-driven prioritization and intelligent workflow automation.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                  <div class="feature-card wow fadeInUp" data-wow-delay=".8s">
+                    <!-- <i class="lni lni-investment"></i> -->
+                    <h4>Revenue Expansion</h4>
+                    <p>Boost customer lifetime value by optimizing renewals, upsells, and retention strategies.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <a href="#why" class="main-btn btn-hover border-btn wow fadeInUp" data-wow-delay=".9s">
+              Explore the Platform
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- ======== framework-section end ======== -->
+
+    <!-- ======== why-section start ======== -->
+    <section id="why" class="feature-extended-section pt-100">
+      <div class="feature-extended-wrapper">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-5 col-xl-6 col-lg-8 col-md-9">
+              <div class="section-title text-center mb-60">
+                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
+                  Why Equalinx Stands Out
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay=".4s">
+                  Transforming raw data into revenue-generating actions
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="single-feature-extended">
+                <div class="icon">
+                  <i class="lni lni-bar-chart"></i>
+                </div>
+                <div class="content">
+                  <h3>Actionable Revenue Intelligence</h3>
+                  <p>
+                    Direct insights that impact pipeline velocity and conversion rates
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-feature-extended">
+                <div class="icon">
+                  <i class="lni lni-bridge"></i>
+                </div>
+                <div class="content">
+                  <h3>Data-Execution Bridge</h3>
+                  <p>
+                    Operational playbooks that turn insights into measurable growth
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="single-feature-extended">
+                <div class="icon">
+                  <i class="lni lni-network"></i>
+                </div>
+                <div class="content">
+                  <h3>End-to-End Optimization</h3>
+                  <p>
+                    Continuous improvement across acquisition, conversion, and retention
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== why-section end ======== -->
+
+    <!-- ======== contact-section start ======== -->
+    <section id="contact" class="subscribe-section pt-120">
+      <div class="container">
+        <div class="subscribe-wrapper img-bg">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-7">
+              <div class="section-title mb-15">
+                <h2 class="text-white mb-25">Ready for Predictable Growth?</h2>
+                <p class="text-white pr-5">
+                  Schedule your free consultation to discover how our Intelligence as a Service can transform your revenue operations.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-5">
+              <form action="#" class="subscribe-form">
+                <input
+                  type="email"
+                  name="subs-email"
+                  id="subs-email"
+                  placeholder="Enter your work email"
+                />
+                <button type="submit" class="main-btn btn-hover">
+                  Get Started
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======== contact-section end ======== -->
+
+    <!-- ======== footer start ======== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="widget-wrapper">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+              <div class="footer-widget">
+                <div class="logo mb-30">
+                  <a href="index.html">
+                    <!-- <img src="assets/img/logo/logo.svg" alt="Equalinx" /> -->
+                  </a>
+                </div>
+                <p class="desc mb-30 text-white">
+                  Powering Growth with Intelligent Services
+                </p>
+                <ul class="socials">
+                  <li>
+                    <a href="#">
+                      <i class="lni lni-linkedin-original"></i>
+                    </a>
+                  </li>
+               
+                 
+                </ul>
+              </div>
+            </div>
+
+            <!-- <div class="col-xl-2 col-lg-2 col-md-6">
+              <div class="footer-widget">
+                <h3>Solutions</h3>
+                <ul class="links">
+                  <li><a href="#solutions">Lead Intelligence</a></li>
+                  <li><a href="#solutions">Deal Analytics</a></li>
+                  <li><a href="#solutions">Revenue Retention</a></li>
+                  <li><a href="#framework">Our Framework</a></li>
+                </ul>
+              </div>
+            </div> -->
+
+            <!-- <div class="col-xl-3 col-lg-3 col-md-6">
+              <div class="footer-widget">
+                <h3>Resources</h3>
+                <ul class="links">
+                  <li><a href="#">Case Studies</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Compliance</a></li>
+                </ul>
+              </div>
+            </div> -->
+
+            <!-- <div class="col-xl-3 col-lg-3 col-md-6">
+              <div class="footer-widget">
+                <h3>Company</h3>
+                <ul class="links">
+                  <li><a href="#contact">Contact Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Partners</a></li>
+                  <li><a href="#">Newsroom</a></li>
+                </ul>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ======== footer end ======== -->
+
+    <!-- ======== JS here ======== -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
